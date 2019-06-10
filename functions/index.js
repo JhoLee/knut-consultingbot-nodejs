@@ -56,16 +56,42 @@ exports.knutConsultingBotFulfillment = functions.https.onRequest((request, respo
 
   // [END welcomeIntent]
 
+  // [START futureJobIntent]
+  function futureJobIntent(agent) {
+    const futureJob = agent.parameters['FutureJob_theme'];
+    const gotFutureJob = futureJob.length > 0;
+
+    if (gotFutureJob) {
+      agent.add(` ${futureJob} 분야의 미래 직업 정보는 다음과 같습니다.`);
+    } else if (!gotFutureJob) {
+      agent.add('분야를 골라주세요.');
+      agent.add(new Suggestion('의식주'));
+      agent.add(new Suggestion('건강'));
+      agent.add(new Suggestion('디자인'));
+      agent.add(new Suggestion('로봇'));
+      agent.add(new Suggestion('바이오'));
+      agent.add(new Suggestion('안전'));
+      agent.add(new Suggestion('에너지'));
+      agent.add(new Suggestion('연결'));
+    }
+  }
+
+  // [END futureJobIntent]
+
+  // [START fallbackIntent]
   function fallbackIntent(agent) {
     agent.add('어이쿠, 뭔가 문제가 있는 것 같아요! ');
     agent.add(`잠시 후 다시 시도해주시겠어요?`)
   }
+
+  // [END fallbackIntent]
 
   // [END set_intents]
 
   // [START match_intents]
   let intentMap = new Map();
   intentMap.set('Default Welcome Intent', welcomeIntent);
+  intentMap.set('Let me know FutureJob', futureJobIntent);
   intentMap.set('Default Fallback Intent', fallbackIntent);
   agent.handleRequest(intentMap);
   // [END match_intents]
