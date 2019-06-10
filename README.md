@@ -13,7 +13,7 @@ Select **only one** of the options below.
 7. Login with your Google account, `firebase login`
 8.  Add your project to the sample with `firebase use <project ID>`
       + In Dialogflow console under **Settings** ⚙ > **General** tab > copy **Project ID**.
-9. Run `firebase deploy --only functions:dialogflowFulfillment`
+9. Run `firebase deploy --only functions:knutConsultingBotFulfillment`
 10. Back in Dialogflow Console > **Fulfullment** > **Enable** Webhook.
       + Paste the URL from the Firebase Console’s Trigger column under the **Functions > Dashboard** tab into the **URL** field > **Save**.
 
