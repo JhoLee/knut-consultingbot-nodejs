@@ -25,7 +25,7 @@ process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
 // link and image URLs
 const keisLogoImageUrl = 'https://www.keis.or.kr/site/main/images/common/logo.png';
 const keisUrl = 'https://www.keis.or.kr/main/index.do';
-const askMeGifImageUrl = 'https://media1.tenor.com/images/04edcf23fe97643fc4b870a58d26b2bb/tenor.gif?itemid=6030434';
+const askMeGifImageUrl = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYkHx45bvC0EgZP72ZTSr5sdP7OZa5sYIWx9Nw5_iOPPY-VjgD';
 
 
 exports.knutConsultingBotFulfillment = functions.https.onRequest((request, response) => {
