@@ -1,0 +1,27 @@
+{
+  "id": "0ef8c50c-5819-4056-9f18-f0b9a53be49d",
+  "name": "Let me know MajorInfo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "어이쿠! 뭔가 잘못된 것 같아요. 잠시 후에 다시 시도해주세요."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}

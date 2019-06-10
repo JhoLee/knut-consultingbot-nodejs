@@ -1,0 +1,35 @@
+{
+  "id": "f9e375f4-6f38-4d62-9ef0-c05f98ecb1a0",
+  "name": "Let me show EmploymentTips",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "42f93b21-5dd4-4825-bc57-cb8a2cd55807",
+          "dataType": "@Tip_type",
+          "name": "Tip_type",
+          "value": "$Tip_type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "어이쿠! 뭔가 잘못된 것 같아요. 잠시 후에 다시 시도해주세요."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}

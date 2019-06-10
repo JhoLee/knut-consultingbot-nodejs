@@ -1,0 +1,9 @@
+{
+  "id": "ac696a9a-e12e-4221-b4c1-f0249261e903",
+  "name": "FutureJob_theme",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

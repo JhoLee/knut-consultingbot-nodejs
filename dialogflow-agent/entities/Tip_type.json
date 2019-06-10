@@ -1,0 +1,9 @@
+{
+  "id": "e7184b90-4a6f-4692-85e6-e90c07f0781b",
+  "name": "Tip_type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

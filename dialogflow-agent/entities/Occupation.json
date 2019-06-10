@@ -1,0 +1,9 @@
+{
+  "id": "a898d898-fdb9-485f-b852-4fe269598b4d",
+  "name": "Occupation",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

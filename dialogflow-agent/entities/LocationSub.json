@@ -1,0 +1,9 @@
+{
+  "id": "03bfb268-f4f8-47f5-b2ee-2605b19cc340",
+  "name": "LocationSub",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

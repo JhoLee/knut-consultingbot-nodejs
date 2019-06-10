@@ -1,0 +1,90 @@
+[
+  {
+    "id": "41d19d7c-8826-4e3b-b137-6020891cc6f6",
+    "data": [
+      {
+        "text": "hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "a1dee4e7-b4c7-4870-b769-82a67c7b7250",
+    "data": [
+      {
+        "text": "안녕",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3
+  },
+  {
+    "id": "081b78dc-cb0b-44b7-9b16-92a1a4cd80ff",
+    "data": [
+      {
+        "text": "ㅋ.ㅋ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bd2bc1e3-363b-42be-96ba-4dcaa5413463",
+    "data": [
+      {
+        "text": "hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1136102b-cdb8-427e-a180-0fe3dbf31e2a",
+    "data": [
+      {
+        "text": "헬로",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c6d81dce-0ca0-4f8d-a8a7-78605811d46f",
+    "data": [
+      {
+        "text": "뭐하냐",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a68caf37-346d-42f2-afc1-24fdfd873fc6",
+    "data": [
+      {
+        "text": "저기",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "11ca4919-0460-45fe-a655-90000993f3fa",
+    "data": [
+      {
+        "text": "야",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

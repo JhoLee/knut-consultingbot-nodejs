@@ -1,0 +1,27 @@
+{
+  "id": "9979e44f-2302-4b20-bc2b-9f9c6aeb1775",
+  "name": "Let me know SchoolsInfo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "어이쿠! 뭔가 잘못된 것 같아요. 잠시 후에 다시 시도해주세요."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

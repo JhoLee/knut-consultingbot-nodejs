@@ -1,0 +1,58 @@
+[
+  {
+    "id": "553b6193-0fbd-41fd-b174-d3cf89e783bc",
+    "data": [
+      {
+        "text": "Kelvin",
+        "alias": "absoluteTempUnit",
+        "meta": "@absoluteTempUnit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1517002804
+  },
+  {
+    "id": "82f9e087-38fa-4ee8-8579-73a1fd32b1dc",
+    "data": [
+      {
+        "text": "Rankine",
+        "alias": "absoluteTempUnit",
+        "meta": "@absoluteTempUnit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1517002804
+  },
+  {
+    "id": "adec0c03-be79-46ac-a732-229186c84933",
+    "data": [
+      {
+        "text": "K",
+        "alias": "absoluteTempUnit",
+        "meta": "@absoluteTempUnit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1517002804
+  },
+  {
+    "id": "1da6011d-d1e9-4c15-93b3-d1780b883009",
+    "data": [
+      {
+        "text": "R",
+        "alias": "absoluteTempUnit",
+        "meta": "@absoluteTempUnit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1517002804
+  }
+]

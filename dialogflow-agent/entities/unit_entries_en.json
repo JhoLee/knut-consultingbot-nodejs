@@ -1,0 +1,18 @@
+[
+  {
+    "value": "Celsius",
+    "synonyms": [
+      "C",
+      "Celsius",
+      "celsius"
+    ]
+  },
+  {
+    "value": "Fahrenheit",
+    "synonyms": [
+      "F",
+      "Fahrenheit",
+      "fahrenheit"
+    ]
+  }
+]

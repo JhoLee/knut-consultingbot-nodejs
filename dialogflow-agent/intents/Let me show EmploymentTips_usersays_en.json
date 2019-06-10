@@ -1,0 +1,108 @@
+[
+  {
+    "id": "511f6320-137b-4635-9c62-2f212efcdeac",
+    "data": [
+      {
+        "text": "이력서 작성법",
+        "alias": "Tip_type",
+        "meta": "@Tip_type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "786cd83a-3a8b-4cc4-b5d3-ca5d09a47125",
+    "data": [
+      {
+        "text": "취업 가이드",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2
+  },
+  {
+    "id": "2422e6f5-dc09-4d32-b70f-ca2b4066406b",
+    "data": [
+      {
+        "text": "대상별취업가이드",
+        "alias": "Tip_type",
+        "meta": "@Tip_type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7b243069-afc0-45bc-960a-0d8c28370e26",
+    "data": [
+      {
+        "text": "어떻게 하면 취업할 수 있지?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6e2bf86c-cb0f-4a1f-98fb-1da373abc9f7",
+    "data": [
+      {
+        "text": "취업 하고 싶어",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7895ed9b-b5d2-42b9-81df-07aef90061c8",
+    "data": [
+      {
+        "text": "취업가이드가 필요해",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3cbcff0c-aed5-410d-a8c0-501d1fb576ce",
+    "data": [
+      {
+        "text": "자소서 작성법",
+        "alias": "Tip_type",
+        "meta": "@Tip_type",
+        "userDefined": true
+      },
+      {
+        "text": " 좀 가르쳐줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "76477293-57ac-4211-b27d-0223ef063ce0",
+    "data": [
+      {
+        "text": "이력서 작성법",
+        "alias": "Tip_type",
+        "meta": "@Tip_type",
+        "userDefined": true
+      },
+      {
+        "text": " 알려줘!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

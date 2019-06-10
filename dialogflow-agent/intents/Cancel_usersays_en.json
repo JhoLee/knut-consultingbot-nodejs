@@ -1,0 +1,71 @@
+[
+  {
+    "id": "d44052ae-4b89-4e9e-8f82-7e5001772516",
+    "data": [
+      {
+        "text": "종료",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b96f6407-414a-4bf8-a643-3033a6bbdb87",
+    "data": [
+      {
+        "text": "나가기",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "52603298-f079-4fbe-b65a-15ebc3fe5d37",
+    "data": [
+      {
+        "text": "취소",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "455a476d-b180-4df2-b960-a39abe3d2421",
+    "data": [
+      {
+        "text": "Cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1517002931
+  },
+  {
+    "id": "53fe783c-7b47-4819-b9b0-a68de307f1e8",
+    "data": [
+      {
+        "text": "Exit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1517002931
+  },
+  {
+    "id": "365ce061-073e-4570-a5a4-31652b9ff2d3",
+    "data": [
+      {
+        "text": "Quit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1517002931
+  }
+]

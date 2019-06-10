@@ -1,0 +1,38 @@
+{
+  "id": "37873ae7-a618-4462-a67d-8877e2128fa0",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "앗! 무언가 문제가 있는 것 같아요. 잠시 후에 다시 시도해주세요."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "TELEGRAM_WELCOME"
+    },
+    {
+      "name": "FACEBOOK_WELCOME"
+    }
+  ]
+}

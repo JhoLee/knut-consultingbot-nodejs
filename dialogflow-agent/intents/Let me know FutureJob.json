@@ -1,0 +1,37 @@
+{
+  "id": "68755234-926a-4604-98c0-f147c1a01ce7",
+  "name": "Let me know FutureJob",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "413563bd-f31d-495a-b6be-92709759bfa2",
+          "required": true,
+          "dataType": "@FutureJob_theme",
+          "name": "FutureJob_theme",
+          "value": "$FutureJob_theme",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "어이쿠, 뭔가 문제가 있는 것 같아요! 잠시 후 다시 시도해주시겠어요?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}

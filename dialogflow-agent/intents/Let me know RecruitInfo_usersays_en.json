@@ -1,0 +1,24 @@
+[
+  {
+    "id": "7303c6da-2f0e-4b16-ba41-e2a029407130",
+    "data": [
+      {
+        "text": "서울 지역 채용 정보 알려줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "430e2f1e-8d0c-4b36-9fa7-886794462961",
+    "data": [
+      {
+        "text": "채용 정보 알려줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]
