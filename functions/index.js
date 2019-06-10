@@ -40,14 +40,14 @@ exports.knutConsultingBotFulfillment = functions.https.onRequest((request, respo
   });
   customSuggestions.addReply_("서울 지역 채용 정보 알려줘");
   customSuggestions.addReply_("취업 하고 싶어.");
-  customSuggestions.addReply_("자소서 잘 쓰는 방법?");
+  customSuggestions.addReply_("참 좋은 자소서 작성법?");
   // [END init]
 
   // [START set_intents]
   // [START welcomeIntent]
   function welcomeIntent(agent) {
     agent.add(new Card({
-        title: '안녕하세요, 교통대 소프트웨어학과 인공지능 직업상단 챗봇입니다.',
+        title: '안녕하세요, 교통대 소프트웨어학과 인공지능 직업상담 챗봇입니다.',
         imageUrl: askMeGifImageUrl,
         text: '어떤 것이든 물어보세요!',
         buttonText: '고용정보원 바로가기',
@@ -129,14 +129,14 @@ exports.knutConsultingBotFulfillment = functions.https.onRequest((request, respo
       let buttonText = "";
       let buttonUrl = "";
       switch (tipType) {
-        case '이력서 작성법':
+        case '이력서작성법':
           title = "이력서 작성법📝";
           imageUrl = "https://ancorp.com/wp-content/uploads/2019/05/resume-icon-16.png";
           text = "이력서란? 인사담당자에게 수많은 지원자들 중에서...";
           buttonText = "자세히 보러 가기!";
           buttonUrl = "https://www.work.go.kr/empSpt/empGuide/empTrend/resumeSelfIntroGuide.do";
           break;
-        case '자소서 작성법':
+        case '자소서작성법':
           title = "자소서 작성법📝";
           imageUrl = "https://t1.daumcdn.net/cfile/tistory/231AB33B56D9771609";
           text = "자기소개서란? 자기소개서는 인사담당자가 지원자의 성격과 태도...";
@@ -150,14 +150,14 @@ exports.knutConsultingBotFulfillment = functions.https.onRequest((request, respo
           buttonText = "자세히 보러 가기!";
           buttonUrl = "https://www.work.go.kr/empSpt/empGuide/empTrend/interviewGuide.do";
           break;
-        case '채용 트렌드':
+        case '채용트렌드':
           title = "채용 트렌드";
           imageUrl = "https://www.work.go.kr/static/images/banner-2019-trend.png";
           text = "채용 문화 트렌드) 계속되는 직무중심의...";
           buttonText = "자세히 보러 가기!";
           buttonUrl = "https://www.work.go.kr/empSpt/empTrend/empTrendIncrease.do";
           break;
-        case '블라인드 채용':
+        case '블라인드채용':
           title = "블라인드 채용";
           imageUrl = "https://www.work.go.kr/static/images/job/img-UI-FES-W03C01C.png";
           text = "블라인드 채용이란? 영어 블라인드(BLIND)라는 단어와 채용의 합성어로...";
@@ -171,7 +171,7 @@ exports.knutConsultingBotFulfillment = functions.https.onRequest((request, respo
           buttonText = "자세히 보러가기!";
           buttonUrl = "https://www.work.go.kr/empSpt/empGuide/empTrend/TargetGuide.do?level=2";
           break;
-        case '입사서류 발급 안내':
+        case '입사서류발급안내':
           title = "입사서류 발급 안내";
           imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDt5tlLsU0S7BePJ7ZJV70vlBiJj4EyizEOzLVSeh8crjv3Cm_dw";
           text = "입사 준비에 필요한 서류를 보다 빠르고 편리하게 발급 받아보실 수 있습니다.";
