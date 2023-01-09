@@ -15,7 +15,7 @@
   "dependencies": {
     "actions-on-google": "^2.2.0",
     "dialogflow-fulfillment": "git+https://github.com/naranjja/dialogflow-fulfillment-nodejs.git",
-    "firebase-admin": "^5.13.1",
-    "firebase-functions": "^2.0.2"
+    "firebase-admin": "^11.4.1",
+    "firebase-functions": "^4.1.1"
   }
 }
